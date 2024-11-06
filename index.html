@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <title>Contact Form</title>
+    </head>
+    <body>
+        <h1>Contact Us</h1>
+        <form>
+            <label for="email">Your email:</label>
+            <input type="email" id="email" name="email">
+
+            <p>Select Message Reason:</p>
+        <div>
+            <input type="radio" id="order" name="reason" value="order"> 
+            <label for="order">Question/issue with order</label>
+        </div>
+        <div>
+            <input type="radio" id="custom" name="reason" value="custom">
+            <label for="custom">Custom Order request</label>
+        </div>
+        <div>
+            <input type="radio" id="other" name="reason" value="other">
+            <label for="other">Other</label>
+        </div>
+
+        <p>Enter Subject:</p>
+        <input type="text" id="subject" name="subject">
+        <p>Enter Question:</p>
+        <input type="text" id="question" name="question">
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+
+        </form>
+        <script src="js/index.js"></script>
+    </body>
+</html>
